@@ -1,0 +1,93 @@
+.support-background {
+  font-family: "Kaisei HarunoUmi", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('../assets/blank background.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.support-wrapper {
+  width: 600px;
+  background: linear-gradient(to bottom, #000000, #00000049, #20202054);
+  border: 2px solid #462200ce;
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgb(24, 26, 179);
+  color: #807d7d;
+  border-radius: 30px;
+  padding: 30px 40px;
+}
+
+.support-app {
+  text-align: center;
+  padding: 60px;
+}
+
+.support-title {
+  color: #ffffff;
+  font-size: 35px;
+  margin-bottom: 60px;
+}
+
+.support-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.support-card-container .support-icon {
+  position: absolute;
+  color: #3b3b3b;
+  font-size: 24px;
+  margin-bottom: 85px;
+}
+
+.card {
+  width: 180px;
+  height: 140px;
+  margin: 8px;
+  background-color: #ffffff;
+  border: 4px solid #ff9b04;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #f3aa0c;
+  border: 2px solid #f3aa0c;
+}
+
+.card .support-icon {
+  font-size: 32px;
+  margin-top: 30px;
+  color: #000000;
+}
+
+.support-label {
+  margin-bottom: -50px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #000000;
+}
+
+h3 .support-home {
+  color: #ffffff;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 11px;
+}
+
+h3 .support-home:hover {
+  color: #ff7b00;
+  transition: 0.3s;
+}
+

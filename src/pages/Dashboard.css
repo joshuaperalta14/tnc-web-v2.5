@@ -1,0 +1,53 @@
+.dashboard-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    min-height: 100vh;
+    background: url('../assets/blank background.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.dashboard-box {
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #703a1b;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.dashboard-box:hover {
+    transform: translateY(-105px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.dashboard-box .dashboard-label {
+    margin-bottom: 10px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.dashboard-box .dashboard-text {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.item-box, .suppliers-box, .expenses-box {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.item-box {
+    left: 50%;
+}
+
+.suppliers-box {
+    left: calc(50% - 350px);
+}
+
+.expenses-box {
+    left: calc(50% + 350px);
+}
